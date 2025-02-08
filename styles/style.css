@@ -72,10 +72,11 @@ body {
 }
 
 .titulo_destaque_2 {
+  display: flex;
+  flex-direction: column;
   font-size: 32px;
   font-family: var(--fonte-k);
-  /*align-items: center;display: flex;
-  flex-direction: column;*/
+  align-items: center;
   color: var(--cor-terciaria);
   gap: 40px;
 }
@@ -119,7 +120,7 @@ body {
   width: 50%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .cabecalho {
     padding: 10%;
   }
